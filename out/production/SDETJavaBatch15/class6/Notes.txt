@@ -1,0 +1,21 @@
+Logical Operators:
+    Logical Operators allow us to combine multiple conditions (as many as you wish). They only work with
+    boolean (true or false) values. There are three logical operators:
+    1) ! NOT
+    2) || OR
+    3) && AND
+
+ Why should we use them?
+    1) They can greatly simplify the logic.
+    2) It helps us to reduce lines of codes that we have to write.
+
+NOT (!):
+    it reverses the condition. If something is true it will make it false and if something is false it will make it true.
+    System.out.println(!true) => false
+
+OR (||):
+    it can combines two or more conditions and returns true as long as there is one of the conditins is true.
+    if all conditions become false it returns a false.
+
+AND (&&):
+    it can also combine two or more conditions.It only returns true if all conditions are true.
